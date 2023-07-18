@@ -14,9 +14,18 @@
     3 input, primeiro input para E-mail ou nome de usuário.
     Segundo input com o type password para a senha.
     Terceiro input com type submit, para o botão de envio das informações preenchidas. 
+
+    Colocamos um placeholder em cada input. O placeholder é um atributo do HTML que cumpre a função de fornecer ao usuário uma dica que descreve o valor esperado em um dado campo de entrada. Esta dica deverá ser apresentada ao usuário antes que ele entre com o valor e deverá ainda, ser curta e objetiva.
     -->
-    <div class="corpo">
+    <div class="corpo"><!--Div com class="corpo" para o corpo do campo de login da tela da caixinha de Login e Senha.-->
+
         <form action="">
+            <!--O identificador FORM é uma ferramenta do HTML, que permite a criação de documentos interativos no WWW. 
+            
+            O FORM submete os dados de entrada do usuário a um programa que se encarregará do processamento desses dados, de acordo com o interesse do criador do documento.
+        ---------------------------------------------
+            Form="action" O atributo action define o local (uma URL) em que os dados recolhidos do formulário devem ser enviados.-->
+
             <h2>Login</h2>
             <input type="text" name="" placeholder="E-mail ou usuário" id=""><!--Input com type="text" para receber informações de tipo de texto, mesmo que o e-mail tenha números, eles também seram considerados como texto, quando se tratar do E-mail/ usúario do usuário.
 
@@ -34,7 +43,11 @@
              E no final colocamos um id para identificar esse input dos demais input's.    
             -->
 
-            <input type="submit" value="Logar"> <!-- input com type="submit" -->
+            <input type="submit" value="Logar">
+            <!-- input com type="submit", o submit é representado por um botão que, quando apertado, causa a submissão dos dados à URL especificada no identificador FORM. 
+            
+            Adicionamos um value="Logar"
+            VALUE:é um atributo obrigatório que especifica o valor do INPUT quando este botão é selecionado (botões não selecionados são desconsiderados durante a submissão dos dados). -->
         </form>
     </div>
 </body>
