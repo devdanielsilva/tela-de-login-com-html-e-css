@@ -10,12 +10,31 @@
 </head>
 
 <body>
+    <!--Para criar uma tela de login, vamos utilizar uma div e dentro dessa div adicionaremos, um form action. h2 com nome de Login. 
+    3 input, primeiro input para E-mail ou nome de usuário.
+    Segundo input com o type password para a senha.
+    Terceiro input com type submit, para o botão de envio das informações preenchidas. 
+    -->
     <div class="corpo">
         <form action="">
             <h2>Login</h2>
-            <input type="text" name="" placeholder="E-mail ou usuário" id="">
+            <input type="text" name="" placeholder="E-mail ou usuário" id=""><!--Input com type="text" para receber informações de tipo de texto, mesmo que o e-mail tenha números, eles também seram considerados como texto, quando se tratar do E-mail/ usúario do usuário.
+
+                placeholder="E-mail ou usuário.
+                "
+                E no final colocamos um id para identificar esse input dos demais input's.-->
+
             <input type="password" name="" placeholder="Senha" id="">
-            <input type="submit" value="Logar">
+            <!--input com type="password" para receber a senha do usuário, o type sendo password, a senha fica criptografada, ou seja, nem quem desenvolvel a tela de login, vai saber a senha.
+
+                name=""
+
+            E adiciona um placeholder="senha".
+
+             E no final colocamos um id para identificar esse input dos demais input's.    
+            -->
+
+            <input type="submit" value="Logar"> <!-- input com type="submit" -->
         </form>
     </div>
 </body>
