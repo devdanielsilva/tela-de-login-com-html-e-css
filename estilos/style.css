@@ -7,6 +7,11 @@
 
 /*Seletor para editar configurações que o navegador nos dá como configurações padrões.*/
 
+html,
 body {
-    
+    height: 100%;
+    background-image: url(../imagens/quadradinhos.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
