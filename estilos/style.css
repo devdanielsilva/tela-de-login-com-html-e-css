@@ -80,3 +80,15 @@ body {
     color: #ffffff;
     transition: 1s;
 }
+
+@media screen and (max-width: 900px) {
+    .corpo {
+        width: 70%
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .corpo {
+        width: 85%;
+    }
+}
