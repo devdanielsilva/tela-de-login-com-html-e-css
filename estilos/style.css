@@ -57,3 +57,26 @@ body {
     background-color: transparent;
     text-shadow: 10px;
 }
+
+.corpo input[type="text"]:focus,
+.corpo input[type="password"]:focus {
+    background-color: #1ce2f0;
+}
+
+.corpo input[type="text"]::placeholder,
+.corpo input[type="password"]::placeholder {
+    font-size: 16pt;
+    color: #ffffff;
+    text-indent: 10px;
+}
+
+.corpo input[type="submit"] {
+    background-color: transparent;
+    color: #1ce2f0;
+}
+
+.corpo input[type="submit"]:hover {
+    background-color: #1ce2f0;
+    color: #ffffff;
+    transition: 1s;
+}
