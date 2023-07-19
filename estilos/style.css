@@ -29,5 +29,16 @@ body {
 }
 
 .corpo h2{
+    text-align: center;
+    color: #ffffff;
+    padding: 20px 0;
+}
+
+.corpo h2::after{
+    content: '';
+    display: block;
+    margin: 10px auto;
+    border-radius: 3px solid #ffffff;
+    width: 25%;
     
 }
