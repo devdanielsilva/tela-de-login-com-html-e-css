@@ -22,7 +22,7 @@ body {
     top: 50%;
     transform: translatey(-50%);
     border-radius: 35px;
-    background-color: linear-gradient(to top left,  #041053, #a914db), ;
+    background: linear-gradient(to top left, #041053, #a914db);
     margin: 0 auto;
     width: 30%;
     height: 400px;
